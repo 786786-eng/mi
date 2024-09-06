@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ADMISSION FORM</title>
+<style>
+
+label{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif} 
+p{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+</style>
+<body>
+
+  <fieldset>
+<h1 style="color :rgb(1, 1, 15); text-align: center;">RIPHAH INTERNATIONAL UNIVERSITY </h1>
+
+   &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="ric.png"width="150"height="100" align="center"> 
+
+<hr color="black">
+<h1 style="text-align:center; "><b>ADMISSION FORM</b></h1>
+<hr color="black">
+<br><br>
+
+  <form action="/action_page.php" >
+   
+ <label for="fname"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FIRST NAME:&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></label>
+  <input type="text"id="fname"name="fname"> &nbsp; &nbsp;
+  <label for="lname"><b style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" > LAST NAME: &nbsp;  &nbsp;</b></label>
+<input type="text"id="lname"name="lname">
+
+  <br><br>
+<label for="father"><b style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FATHER NAME:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></label>
+  <input type="text"id="father"name="father">
+<br><br>
+  <label for="mother"><b style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">MOTHER NAME: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; </b></label>
+  <input type="text"id="mother"name="mother">
+<br><br>
+  <label for="address"><b style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">POSTAL ADDRESS:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></label>
+  <input type="text"id="address"name="address"> 
+  <br><br>
+<label for="ppp" ><b style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">PERMANENT ADDRESS:</b></label>
+  <input type="text"id="ppp"name="ppp">
+  <br><br>
+
+  <h style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>GENDER: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></h>
+
+<input type="radio"id="gender"name="gender"value="gender">
+<label for="gender"><b>MALE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></label>
+               
+<input type="radio"id="gen2"name="gender"value="gen2">
+<label for="gen2"><b>FEMALE</b></label> 
+<br><br>
+
+<h style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>COURSE: &nbsp; &nbsp;            &nbsp;                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></h>
+<select name="course">
+<option value="CS"><b>COMPUTER SCIENCE(CS)</b></option>
+<option value="it"><b>INFORMATION TECHNOLOGY(IT)</b></option>  
+<option value="ai"><b>ARTIFICIAL INTELLIGENCE(AI)</b></option>
+<option value="data"><b>DATA SCIENCE</b></option> 
+<option value="soft"><b>SOFTWARE ENGINEER</b></option>
+</select>
+<br><br>
+
+
+<h style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>STATE: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></h>
+<select name="state">
+
+<option value="punjab"><b>PUNJAB</b></option>
+<option value="sindh"><b>SINDH</b></option>
+<option value="baloch"><b>BALOCHISTAN</b></option>
+<option value="kpk"><b>KPK</b></option>
+</select>
+<br><br>
+<h style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>DISTRICT: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></h>
+<select name="dis">
+<option value="lahore"><b>LAHORE</b></option>
+<option value="kar"><b>KARACHI</b></option>
+<option value="mul"><b>MULTAN</b></option>
+<option value="sia"><b>SIALKOT</b></option>
+<option value="fais"><b>FAISALABAD</b></option>
+<option value="isl"><b>ISLAMABAD</b></option>
+</select>
+  
+<br><br>
+
+<label for="mail"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>E-MAIL: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></label>
+<input type="text"id="mail"name="mail">
+<br><br>
+
+ <label for="dob"><b>DOB: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></label>
+<input type="date"placeholder="date of birthday"name="dob">
+
+<br><br>
+<label for="no"><b>MOBILE NO: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></label>
+<input type="text"id="no"name="no">
+<br><br>
+
+
+<hr color="firebrick">
+<h><b>DECLARATION</b></h>
+<p>I do hereby declare that above details which i have filled are correct and to the best of my knowledge.</p>
+<br>
+
+<input type="checkbox"id="aag"name="aag">
+<label for="aag"> I Agree</label>
+<hr width="100%" size="2px" color="firebrick">
+
+<input type="submit"value="submit">
+</form>
+
+</fieldset>
+</body>
+</head>
+
+</html>
+
